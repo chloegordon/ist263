@@ -8,3 +8,7 @@ a {color: #be9b7b;}
 nav {background-color: #854442;}
 nav a {color: #fff4e6;}
 nav a:hover {background-color: #be9b7b;}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
