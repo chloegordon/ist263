@@ -12,3 +12,5 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
+
+.column1, .column2 {flex-basis: 50%}
