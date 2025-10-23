@@ -18,3 +18,9 @@ nav {
 .row1, .row2 {
     display: flex;
 }
+
+.row1, .row2 {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 1em;
+}
