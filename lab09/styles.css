@@ -15,6 +15,8 @@ nav {
 
 .column1, .column2, .column3, .column4 {flex-basis: 50%}
 
+.column1, .column2 {float: left;}
+
 .row1, .row2 {
     display: flex;
 }
