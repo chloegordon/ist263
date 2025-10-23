@@ -16,7 +16,7 @@ nav {
 .column3, .column4 {flex-basis: 50%}
 
 .column1, .column2 {float: left;}
-.column3 {padding-right: 10px;}
+.column1 {padding-right: 10px;}
 
 .row1, .row2 {
     display: flex;
