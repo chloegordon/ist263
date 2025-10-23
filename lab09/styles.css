@@ -25,3 +25,5 @@ nav {
     border-radius: 1em;
     margin: 20px;
 }
+
+.movieflex {display: flex;}
