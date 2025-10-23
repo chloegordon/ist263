@@ -34,6 +34,8 @@ nav {
     margin: 20px;
 }
 
+.movietable, .skillsimage {flex-basis: 50%;}
+
 .movietable {margin: 0 auto;} 
 
 .skillsimage {text-align: center;}
