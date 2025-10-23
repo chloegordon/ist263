@@ -32,5 +32,9 @@ nav {
     padding: 10px;
     border-radius: 1em;
     margin: 20px;
-    align-items: center;
 }
+
+.movietable {margin: 0 auto;} 
+
+.skillsimage {text-align: center;}
+
