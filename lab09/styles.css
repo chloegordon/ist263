@@ -14,3 +14,7 @@ nav {
 }
 
 .column1, .column2 {flex-basis: 50%}
+.column1 {
+    text-align: center;
+    flex-basis: 50%;
+}
