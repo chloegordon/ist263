@@ -29,7 +29,7 @@ nav {
 .movieflex {
     display: flex;
     background-color: #FFFFFF;
-    padding: 10px;
+    padding: 20px;
     border-radius: 1em;
     margin: 20px;
 }
