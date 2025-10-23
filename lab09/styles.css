@@ -26,4 +26,10 @@ nav {
     margin: 20px;
 }
 
-.movieflex {display: flex;}
+.movieflex {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 1em;
+    margin: 20px;
+}
