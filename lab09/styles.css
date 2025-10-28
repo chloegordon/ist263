@@ -36,6 +36,7 @@ nav {
     border-radius: 1em;
     margin: 20px;
     justify-content: center;
+
 }
 
 .movietable, .skillsimage {flex-basis: 50%;}
