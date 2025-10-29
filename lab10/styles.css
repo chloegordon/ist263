@@ -13,7 +13,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.column3 {flex-basis: 50%}
+.column3, .column4 {flex-basis: 50%}
 
 .column1, .column2 {float: left;}
 .column1 {padding-right: 30px;}
