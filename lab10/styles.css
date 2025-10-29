@@ -19,6 +19,8 @@ nav {
     }
 }
 
+nav span {display: none;}
+
 .column3, .column4 {flex-basis: 50%}
 
 iframe {
