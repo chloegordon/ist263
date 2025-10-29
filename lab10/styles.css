@@ -21,7 +21,11 @@ nav {
 .row1, .row2 {
     display: flex;
 }
-.row2 {flex-wrap: wrap;}
+.row2 {padding: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+            }
 
 .row1, .row2 {
     background-color: #FFFFFF;
