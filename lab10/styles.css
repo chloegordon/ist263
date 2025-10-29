@@ -17,6 +17,7 @@ nav {
     nav a {
         display: block;
         width: 100%;
+        padding: 10px;
     }
     nav span {
         display: none;
