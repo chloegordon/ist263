@@ -17,9 +17,11 @@ nav {
         display: block;
         width: 100%;
     }
+    nav span {
+        display: none;
+        color: #fff4e6;
+    }
 }
-
-nav span {display: none;}
 
 .column3, .column4 {flex-basis: 50%}
 
