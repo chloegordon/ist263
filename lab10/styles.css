@@ -12,8 +12,19 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
+@media screen and (max-width:760px) {
+    nav a {
+        display: block;
+        width: 100%;
+    }
+}
 
 .column3, .column4 {flex-basis: 50%}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+}
 
 .column1, .column2 {float: left;}
 .column1 {padding-right: 30px;}
@@ -21,11 +32,7 @@ nav {
 .row1, .row2 {
     display: flex;
 }
-.row2 {padding: 80px;
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-            }
+.row2 {flex-wrap: wrap;}
 
 .row1, .row2 {
     background-color: #FFFFFF;
@@ -53,3 +60,4 @@ nav {
 .banner {
     max-width: 100%;
 }
+
