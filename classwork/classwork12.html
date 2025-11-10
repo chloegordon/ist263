@@ -7,7 +7,11 @@
 
         <script>
             function bigly () {
-                document.getElementById("p1").innerHTML="New Content"
+                document.getElementById("p1").innerHTML = "New Content"
+            }
+
+            function wrongAnswer () {
+                document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer!</span>"
             }
             
         </script>
@@ -16,6 +20,13 @@
     <body>
         <p id="p1" onclick="bigly()">Content goes here</p>
         <p id="p2">Paragraph 2</p>
+
+
+        <h1>My Javascript Quiz</h1>
+        <p>Java and Javascript are the same thing.</p>
+        <p onclick="wrongAnswer();" id="wrong">True</p>
+        <p onclick="rightAnswer();" id="correct">False</p>
+
     </body>
 
 </html>
