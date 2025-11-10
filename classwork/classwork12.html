@@ -13,6 +13,10 @@
             function wrongAnswer () {
                 document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer!</span>"
             }
+
+            function changeImage () {
+                document.getElementById("lionsimage").setAttribute("src","../project/media/cheetah.JPG")
+            }
             
         </script>
     </head>
@@ -31,8 +35,8 @@
 
         <br> 
         <br>
-        
-        <img src="../project/media/lions.jpeg">
+
+        <img src="../project/media/lions.jpeg" id="lionsimage" onclick="changeImage();">
 
     </body>
 
