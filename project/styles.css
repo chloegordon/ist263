@@ -32,11 +32,12 @@ nav {
     flex-basis: 60%;
 }
 
-.mesection {
+.homephoto {
     flex-basis: 40%;
+    text-align: right;
 }
 
-.mesection img {
+.homephoto img {
     width: 100%;
     max-width: 350px;
     border-radius: 10px;
@@ -47,7 +48,7 @@ nav {
     margin-top: 40px;
 }
 
-.map-section img {
+.mapsection img {
     width: 100%;
     max-width: 600px;
     border-radius: 10px;
@@ -57,7 +58,6 @@ nav {
     nav a {
         display: block;
         width: 100%;
-        padding: 12px;
     }
 
     .hometext, .homephoto {
@@ -65,7 +65,7 @@ nav {
         text-align: center;
     }
 
-    .home-photo img {
+    .homephoto img {
         max-width: 250px;
     }
 }
