@@ -9,6 +9,8 @@
         display: block;
         margin: 5px 0;
     }
+
+    nav a {color: #fff4e6;}
 }
 
 body {
