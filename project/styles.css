@@ -77,29 +77,24 @@ nav {
 }
 
 .paris, .southafrica, .japan, .westtrip {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-bottom: 50px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #be9b7b;
 }
 
-.paris h2, .southafrica h2, .japan h2, .westtrip h2 {
-    margin-top: 20px;
-}
+.text {flex-basis: 60%;}
 
-.paris p, .southafrica p, .japan p, .westtrip p {
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-.parisphoto, .southafricaphoto, .japanphoto, .westtripphoto {
+.photo {
+    flex-basis: 40%;
     text-align: center;
-    margin-top: 20px;
 }
 
-.parisphoto img, .southafricaphoto img, .japanphoto img, .westtripphoto img {
+.photo img {
     width: 100%;
-    max-width: 600px;
+    max-width: 350px;
     border-radius: 10px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 760px) {
@@ -108,7 +103,19 @@ nav {
         width: 100%;
     }
 
-    .parisphoto img, .southafricaphoto img, .japanphoto img, .westtripphoto img {
+    .paris, .southafrica, .japan, .westtrip {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text, .photo {
+        flex-basis: 100;
+    }
+
+
+
+    .photo img {
         max-width: 250px;
+        margin: 20px auto;
     }
 }
