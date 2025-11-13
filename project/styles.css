@@ -3,7 +3,9 @@ body {
     background-color: #fff4e6;
 }     
 
-a {color: #be9b7b;}
+a {color: #be9b7b;
+    text-decoration: none;
+}
 
 nav {background-color: #854442;}
 nav a {color: #fff4e6;}
@@ -11,4 +13,59 @@ nav a:hover {background-color: #be9b7b;}
 nav {
     padding: 10px;
     margin-bottom: 30px;
+}
+
+.homewrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.homeflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.hometext {
+    flex-basis: 60%;
+}
+
+.mesection {
+    flex-basis: 40%;
+}
+
+.mesection img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.mapsection {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.map-section img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .hometext, .homephoto {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .home-photo img {
+        max-width: 250px;
+    }
 }
