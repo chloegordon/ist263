@@ -17,7 +17,7 @@ nav {
 
 .homewrapper {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -66,6 +66,49 @@ nav {
     }
 
     .homephoto img {
+        max-width: 250px;
+    }
+}
+
+.tipscontainer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.paris, .southafrica, .japan, .westtrip {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #be9b7b;
+}
+
+.paris h2, .southafrica h2, .japan h2, .westtrip h2 {
+    margin-top: 20px;
+}
+
+.paris p, .southafrica p, .japan p, .westtrip p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.parisphoto, .southafricaphoto, .japanphoto, .westtripphoto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parisphoto img, .southafricaphoto img, .japanphoto img, .westtripphoto img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    nav a {
+        display: block;
+        width: 100%;
+    }
+
+    .parisphoto img, .southafricaphoto img, .japanphoto img, .westtripphoto img {
         max-width: 250px;
     }
 }
