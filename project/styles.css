@@ -1,3 +1,16 @@
+.large {
+    display: inline;
+}
+
+@media (max-width: 760px) {
+    .large {display: none;}
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
 body {
     color: #4B3832;
     background-color: #fff4e6;
@@ -168,7 +181,5 @@ nav {
 
     .column1, .column2 {width: 100%;}
 
-    nav span {
-        display: none;
-    }
+
 }
