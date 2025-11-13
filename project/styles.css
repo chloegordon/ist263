@@ -122,25 +122,24 @@ nav {
 
 .heading {
     text-align: center;
-    margin-bottom: 30px;
+    max-width: 900px;
+    margin-bottom: 0 auto 30px;
 }
 
 .gallerycontainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto 40px;
 }
 
-.column1, {
-    width: 48%
-    order: 1;
-}
-
-.column2 {
+.column1, .column2 {
     width: 48%;
-    order:2;
+    margin-bottom: 30px;
 }
+
 
 .column1 img, .column2 img {
     width: 100%;
@@ -150,7 +149,7 @@ nav {
 }
 
 .column1 p, .column2 p {
-    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 760px) {
