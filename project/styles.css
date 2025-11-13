@@ -132,19 +132,25 @@ nav {
     margin: 0 auto;
 }
 
-.column1, .column2 {
+.column1, {
     width: 48%
+    order: 1;
+}
+
+.column2 {
+    width: 48%;
+    order:2;
 }
 
 .column1 img, .column2 img {
     width: 100%;
+    display: block;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .column1 p, .column2 p {
     margin-bottom: 30px;
-    line-height: 1.5;
 }
 
 @media screen and (max-width: 760px) {
