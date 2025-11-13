@@ -83,13 +83,10 @@ nav {
     margin-bottom: 50px;
 }
 
-.text {
-    flex-basis: 55%;
-    padding-right: 20px;
-}
+.text {flex-basis: 60%;}
 
 .photo {
-    flex-basis: 45%;
+    flex-basis: 40%;
     text-align: center;
 }
 
