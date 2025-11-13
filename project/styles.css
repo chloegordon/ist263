@@ -70,7 +70,7 @@ nav {
     }
 }
 
-.tipscontainer {
+.tipswrapper {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
@@ -78,15 +78,18 @@ nav {
 
 .paris, .southafrica, .japan, .westtrip {
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
+    align-items: flex-start;
     margin-bottom: 50px;
 }
 
-.text {flex-basis: 60%;}
+.text {
+    flex-basis: 55%;
+    padding-right: 20px;
+}
 
 .photo {
-    flex-basis: 40%;
+    flex-basis: 45%;
     text-align: center;
 }
 
@@ -109,7 +112,7 @@ nav {
     }
 
     .text, .photo {
-        flex-basis: 100;
+        flex-basis: 100%;
     }
 
 
