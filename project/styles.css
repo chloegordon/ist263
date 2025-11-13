@@ -68,6 +68,10 @@ nav {
     .homephoto img {
         max-width: 250px;
     }
+
+    nav span {
+        display: none;
+    }
 }
 
 .tipscontainer {
@@ -118,6 +122,10 @@ nav {
         max-width: 250px;
         margin: 20px auto;
     }
+
+    nav span {
+        display: none;
+    }
 }
 
 .heading {
@@ -159,4 +167,8 @@ nav {
     }
 
     .column1, .column2 {width: 100%;}
+
+    nav span {
+        display: none;
+    }
 }
