@@ -1,5 +1,9 @@
-nav span .large {
+.large {
     display: inline;
+}
+
+nav span.large {
+    color: #fff4e6
 }
 
 @media (max-width: 760px) {
