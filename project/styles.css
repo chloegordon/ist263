@@ -3,14 +3,15 @@
 }
 
 @media (max-width: 760px) {
-    .large {display: none;}
+    .large {
+        display: none;
+        color: #fff4e6
+    }
 
     nav a {
         display: block;
         margin: 5px 0;
     }
-
-    nav {color: #fff4e6;}
 }
 
 body {
