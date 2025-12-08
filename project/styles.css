@@ -190,3 +190,9 @@ nav {
 
 
 }
+
+h1, h2, h3, h4 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
