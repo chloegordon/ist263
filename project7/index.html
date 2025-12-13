@@ -15,6 +15,22 @@
                 window.open("../project/media/map.png");
             }
         </script>
+
+        <script>
+    function pickDestination () {
+        var destinations = [
+            "Paris 🇫🇷",
+            "Japan 🇯🇵",
+            "South Africa 🇿🇦",
+            "Out West (Utah, Arizona & Vegas) 🇺🇸"
+        ];
+
+        var randomIndex = Math.floor(Math.random() * destinations.length);
+
+        document.getElementById("destination-result").innerHTML =
+            "You should visit: <strong>" + destinations[randomIndex] + "</strong>";
+    }
+</script>
     </head>
 
     <body>
@@ -58,6 +74,16 @@
         <br>
         <br>
         <br>
+
+    <section class="random-destination">
+    <h2><strong>Not Sure Where to Go Next?</strong></h2>
+
+    <button onclick="pickDestination();">
+        Pick a Destination for Me
+    </button>
+
+    <p id="destination-result"></p>
+    </section>
 
         <section class="mapsection">
         <h2><strong>Below is a map with pins showing just some of the places I have traveled to throughout the world.</strong></h2>
